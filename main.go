@@ -1,9 +1,9 @@
 package main
 
 import (
-	"./cmd"
+	"github.com/the-happy-programmer/next-gen/cmd"
 )
 
 func main() {
-  cmd.Execute()
+	cmd.Execute()
 }
