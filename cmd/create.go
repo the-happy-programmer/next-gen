@@ -29,6 +29,13 @@ var qs = []*survey.Question{
 			Options: []string{"next-ui", "shadcn/ui"},
 		},
 	},
+	{
+		Name: "deployment",
+		Prompt: &survey.Select{
+			Message: "Which UI library you want to use",
+			Options: []string{"podman", "docker"},
+		},
+	},
 }
 
 func init() {
